@@ -4,6 +4,13 @@
     margin: 0px;
 }
 
+::selection {
+    background: rgb(158, 228, 78); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: rgb(158, 228, 78); /* Gecko Browsers */
+  }
+
 html {
     font-size: 62.5%;
 }
