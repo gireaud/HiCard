@@ -17,10 +17,10 @@ h1,h2,h3,h4,h5,h6,p,span,a {
 
 h1 {
     font-size: 2.8rem;
-    color: rgb(200, 187, 214);
+    color: rgb(255, 255, 255);
 }
 h2 {
-    color: rgb(165, 132, 180);
+    color: rgb(221, 221, 221);
 }
 
 .fa {
@@ -34,7 +34,20 @@ a {
     text-decoration: none;
 }
 
+h1.hc-title {
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(41, 40, 48);
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: -0.2rem;
+    padding: 0 0 5rem 0;
+}
+
 /* Elementos HTML */
+
+a {
+    cursor: pointer;
+}
 
 /* Contenedores */
 
@@ -45,25 +58,32 @@ a {
     justify-content: center; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
     height: 100vh;
-
 }
 
 .global {
 
     background-color: rgb(41, 40, 48);
-    padding: 8rem 3rem 9rem 3rem;
-    border-radius: 1.5rem;
+    padding: 8rem 3rem 7rem 3rem;
+    border-radius: 17rem 17rem 4rem 4rem;
     text-align: center;
     margin: 0 auto;
     box-shadow: 1px 11px 20px -14px hsla(0, 0%, 0%, 0.31);
     -webkit-box-shadow: 1px 11px 20px -14px hsla(0, 0%, 0%, 0.31);
     -moz-box-shadow: 1px 11px 20px -14px hsla(0, 0%, 0%, 0.31);
+    -webkit-transition: box-shadow 0.4s 0s ease-in-out;
+    -moz-transition: box-shadow 0.4s 0s ease-in-out;
+    -o-transition: box-shadow 0.4s 0s ease-in-out;
+    transition: box-shadow 0.4s 0s ease-in-out;
 }
 
 .global:hover {
     box-shadow: 1px 11px 20px -5px rgba(0,0,0,0.31);
     -webkit-box-shadow: 1px 11px 20px -5px rgba(0,0,0,0.31);
     -moz-box-shadow: 1px 11px 20px -5px rgba(0,0,0,0.31);
+    -webkit-transition: box-shadow 0.4s 0s ease-in-out;
+    -moz-transition: box-shadow 0.4s 0s ease-in-out;
+    -o-transition: box-shadow 0.4s 0s ease-in-out;
+    transition: box-shadow 0.4s 0s ease-in-out;
 }
 
 .profile-pic-container {
@@ -72,15 +92,15 @@ a {
     border-radius: 100px;
     overflow: hidden;
     border: solid 1px #fff;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 4rem;
 }
 
 .social {
-    margin: 1.5rem auto;
+    margin: 3rem auto;
 }
 
 .user-name {
-    margin-bottom: 2px;
+    margin-bottom: 1rem;
 }
 
 .user-role {
@@ -91,9 +111,52 @@ a {
 }
 
 .company-box {
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 img {
     width: 100%;
+}
+
+.button {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button a {
+    font-weight: 400;
+}
+
+.main-button {
+    color: #fff;
+}
+
+.sec-button  {
+    color: rgb(41, 41, 41);
+}
+
+.main-button {
+    background-color: rgb(136, 201, 61);
+}
+.sec-button {
+    background-color: rgb(236, 236, 236);
+}
+
+.foot {
+    padding: 1.5rem;
+}
+
+.foot span{
+    font-weight: 400;
+    color: #000;
+}
+
+.foot a {
+    color: rgb(136, 201, 61);
+    font-weight: 800;
 }
