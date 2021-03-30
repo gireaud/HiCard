@@ -5,10 +5,10 @@
 }
 
 ::selection {
-    background: rgb(158, 228, 78); /* WebKit/Blink Browsers */
+    background: rgb(149, 216, 73); /* WebKit/Blink Browsers */
   }
   ::-moz-selection {
-    background: rgb(158, 228, 78); /* Gecko Browsers */
+    background: rgb(149, 216, 73); /* Gecko Browsers */
   }
 
 html {
